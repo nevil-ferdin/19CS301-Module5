@@ -1,6 +1,9 @@
 # 19CS301-Module5
 
-Exp.No:5(a)	Constructors- Parameterized Constructor
+- **Name:** Nevil Joe Ferdin P
+- **Register Number:** 212222050041
+
+## Exp.No:5(a)	Constructors- Parameterized Constructor
 ### AIM
 To write a Python code to create a Class for a Person with the parameterised constructor which will take the name and userid of the person as parameters print the userid  of the person,
 ### ALGORITHM
@@ -21,7 +24,10 @@ Step 7:	 Create an instance s1 of the person class by passing the entered name a
 
 Step 8:	 Terminate the program.
 ### PROGRAM
-```
+```python
+# Name : Nevil Joe Ferdin P
+# Reg no : 212222050041
+
 class person:
     def __init__(self,name,userid):
         self.name=name
@@ -37,7 +43,7 @@ s1=person(name,userid)
 ### RESULT
 Thus the python program for parameterised constructor which will take the name and userid of the person as parameters print the userid  of the person, was implemented and executed successfully.
 
-Exp.No:5(b)	Destructor
+## Exp.No:5(b)	Destructor
 
 ### AIM
 To create  a  Python Class Student with a destructor.
@@ -55,7 +61,10 @@ Step 5:	 Use the del statement to delete the object s2. This triggers the __del_
 Step 6:	  Terminate the program.
 
 ### PROGRAM
-```
+```python
+# Name : Nevil Joe Ferdin P
+# Reg no : 212222050041
+
 class student:
     def __init__(self):
         print("Inside Constructor")
@@ -73,7 +82,7 @@ del s2
 ### RESULT
 Thus the python program for Class Student with a destructor, was implemented and executed successfully.
 
-Exp.No:5(c)	Multiple Inheritance
+## Exp.No:5(c)	Multiple Inheritance
 
 ### AIM
 To Write a Python program to get the name, attendance and Id of a student and check they are eligible for Next Module using multiple inheritance, attendance >80 eligible student else Not Eligible student
@@ -108,7 +117,10 @@ Step 13:	Create an instance student of the Attendance class, passing the entered
 
 Step 14:	Call the check_eligibility method on the student object and print the result.
 ### PROGRAM
-```
+```python
+# Name : Nevil Joe Ferdin P
+# Reg no : 212222050041
+
 class Student:
     def __init__(self, name, student_id):
         self.name = name
@@ -138,7 +150,7 @@ Thus the python program to get the name, attendance and Id of a student and chec
 
 
 
-Exp.No:5(d)	Multi-level Inheritance
+## Exp.No:5(d)	Multi-level Inheritance
 
 ### AIM
 To write a Python program to Get the name, age and id of a person and display using Multilevel inheritance.
@@ -178,7 +190,10 @@ Step 15:	Call the show_details method on the person object and print the result.
 Step 16:	Terminate the program.
 
 ### PROGRAM
-```
+```python
+# Name : Nevil Joe Ferdin P
+# Reg no : 212222050041
+
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -212,7 +227,7 @@ print(person.show_details())
 Thus the python program to Get the name, age and id of a person and display using Multilevel inheritance. , was implemented and executed successfully.
 
 
-Exp.No:5(e)	HIERARCHICAL INHERITANCE
+## Exp.No:5(e)	HIERARCHICAL INHERITANCE
 
 ### AIM
 To write a Python program to Get the employee  and doctor details & display it using Hierarchical inheritance.create a parent (base) class name Details and two child (derived) classes named Employee and Doctor
@@ -243,6 +258,10 @@ Step 6:	Create objects of Employee and Doctor using the input.
 Step 7:	Call the display_details() method for both objects to print the details.Step 8:	
 
 ### PROGRAM
+```python
+# Name : Nevil Joe Ferdin P
+# Reg no : 212222050041
+
 # Parent class Details
 class Details:
     def __init__(self, id, name, gender):
@@ -307,15 +326,9 @@ def main():
 
 # Run the main function
 main()
-
+```
 ### OUTPUT
  ![image](https://github.com/user-attachments/assets/49f2eb5f-b9a6-4e0e-8b36-cae4cbe497e1)
 
 ### RESULT
 Thus the python program for Hierarchical Inheritance to get the employee details was implemented and executed successfully.
-
-
-
-
-
-
